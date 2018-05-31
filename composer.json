@@ -1,0 +1,23 @@
+{
+    "name": "lichao/student",
+    "require": {
+        "gregwar/captcha": "*"
+    },
+    "authors": [
+        {
+            "name": "lichao",
+            "email": "3568887595@qq.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "core\\":"core",
+            "app\\":"app",
+            "system\\":"system"
+        },
+        "files":[
+            "system/functions.php",
+            "core/config/db.php"
+        ]
+    }
+}
